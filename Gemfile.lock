@@ -27,6 +27,10 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.0)
     atomic (1.1.13)
+    biblesearch-api (1.1.0)
+      hashie
+      httparty
+      oj
     bourbon (3.2.4)
       sass (~> 3.2)
       thor
@@ -40,7 +44,11 @@ GEM
     coffee-script-source (1.6.3)
     erubis (2.7.0)
     execjs (2.0.0)
+    hashie (3.4.0)
     hike (1.2.3)
+    httparty (0.13.3)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.5)
     jbuilder (1.5.0)
       activesupport (>= 3.0.0)
@@ -58,9 +66,11 @@ GEM
     mime-types (1.24)
     minitest (4.7.5)
     multi_json (1.7.9)
+    multi_xml (0.5.5)
     neat (1.5.0)
       bourbon (>= 2.1)
       sass (>= 3.2)
+    oj (2.11.4)
     polyglot (0.3.3)
     prismic.io (1.1.0)
     rack (1.5.2)
@@ -123,6 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  biblesearch-api (~> 1.1.0)
   bourbon
   coffee-rails (~> 4.0.0)
   jbuilder (~> 1.2)
